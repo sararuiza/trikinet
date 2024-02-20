@@ -1,0 +1,46 @@
+
+:root{
+    --blue1: #9195F6;
+    --blue2: #B7C9F2;
+    --yelow: #F9F07A;
+    --pink: #FB88B4;
+    --white: #ffffff;
+}
+
+@font-face {
+    font-family: trikiNet;
+    src: url(./media/Copyduck.otf);
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--blue2);
+}
+
+.trikihead{
+    width: 100%;
+    height: 15vh;
+    background-color: var(--blue1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.trikihead__title{
+    font-family: trikiNet;
+    color: var(--white);
+}
+
+.trikihead__ligths{
+    background-color: #000;
+    width: 30%;
+    height: 100%;
+}
